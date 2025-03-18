@@ -2,7 +2,7 @@
     width: 100%;
     height: 500px;
     background: #0054CE;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .footer-top {
@@ -17,6 +17,7 @@
 .footer-box3,
 .footer-box4 {
     width: 22%;
+    margin: 0 8px;
 }
 
 .footer-box1 p {

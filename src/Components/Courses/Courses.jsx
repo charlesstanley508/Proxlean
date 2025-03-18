@@ -18,6 +18,13 @@ const Courses = () => {
           <div className="course-text">
             <h1>Mastering  python from Scratch...</h1>
             <p className="cover">Beginner-friendly</p>
+            <div className="rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
             <p>Instructor: John Doe </p>
           </div>
 
@@ -30,6 +37,13 @@ const Courses = () => {
           <div className="course-text">
             <h1>Mastering  Data science from Scratch...</h1>
             <p className="cover">Beginner-friendly</p>
+            <div className="rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
             <p>Instructor: John Doe </p>
           </div>
 
@@ -42,6 +56,13 @@ const Courses = () => {
           <div className="course-text">
             <h1>Mastering from node.js Scratch...</h1>
             <p className="cover">Beginner-friendly</p>
+            <div className="rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
             <p>Instructor: John Doe </p>
           </div>
 

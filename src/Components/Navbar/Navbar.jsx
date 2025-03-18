@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import Logo from '../../Assets/Logo.png';
-import Banner from '../../Assets/Bg1.png';
+
 
 function Navbar() {
 
@@ -24,11 +24,21 @@ function Navbar() {
         </div>
 
         <ul className={navMenu ? `navbar-link active` : `navbar-link`}>
-          <li className="active">Home</li>
-          <li>Courses</li>
-          <li>Live Classes</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li className="active">
+            <a href="/">Home</a>
+            </li>
+          <li>
+            <a href="Courses">Courses</a>
+            </li>
+          <li>
+            <a href="Classes">Live Classes</a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
         </ul>
 
         <div className="menu-icon" onClick={toggleMenu}>
@@ -37,18 +47,6 @@ function Navbar() {
 
       </div>
 
-      <section className="banner">
-
-        <div className="banner-text">
-          <h2>Unlock Your Potential <br /> with Expert-Led Courses!</h2>
-          <p>Join thousands  of learners in mastering new  skills</p>
-        </div>
-
-        <div className="banner-img">
-          <img src={Banner} alt="" />
-        </div>
-
-      </section>
     </>
   )
 }
